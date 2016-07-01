@@ -5,6 +5,7 @@ var api = require('./lib/api');
 api.service = require('./lib/service');
 // allow devs to call service functions
 api.invoke = require('./lib/invoke');
+api.invokePromise = require('./lib/invokePromise');
 // check to see if a path has an api def registered
 api.find = require('./lib/find');
 // make sure service function is secured
